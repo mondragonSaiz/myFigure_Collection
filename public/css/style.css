@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #2d122e;
+}
+
+.card {
+  cursor: pointer;
+}
+
+.display-1 {
+  font-family: 'Alfa Slab One', cursive;
+}
+
+.glowing-text {
+  text-shadow: 0 0 2px #fff, 0 0 5px #fff, 0 0 3px #fff, 0 0 5px #ff00de,
+    0 0 10px #ff00de, 0 0 25px #ff00de, 0 0 15px #ff00de;
+}
+
+.news-container {
+  padding: 8% 30% 15% 30%;
+}
+
+.news-card {
+  max-width: 640px;
+  margin-top: 10%;
+  box-shadow: rgba(246, 4, 157, 0.979) 5px 5px,
+    rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px,
+    rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
+
+@media screen and (max-width: 768px) {
+  .news-card {
+    margin-top: 30%;
+  }
+  .news-container {
+    padding: 15% 30% 15% 30%;
+  }
+}
