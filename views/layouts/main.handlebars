@@ -56,32 +56,52 @@
         </button>
         <div class='collapse navbar-collapse' id='navbarNav'>
           <ul class='navbar-nav justify-content-end flex-grow-1 pe-3'>
-            <li class='nav-item'>
-              <a
-                class='nav-link active'
-                aria-current='page'
-                href='#'
-                style='color: aliceblue;'
-              >Home</a>
-            </li>
-            <li class='nav-item'>
-              <a
-                class='nav-link'
-                data-bs-toggle='modal'
-                data-bs-target='#loginModal'
-                href='#'
-                style='color: aliceblue;'
-              >Login</a>
-            </li>
-            <li class='nav-item'>
-              <a
-                class='nav-link'
-                data-bs-toggle='modal'
-                data-bs-target='#signupModal'
-                href='#'
-                style='color: aliceblue;'
-              >Signup</a>
-            </li>
+            {{#if logged_in}}
+              <li class='nav-item'>
+                <a
+                  class='nav-link active'
+                  aria-current='page'
+                  href='/api/users'
+                  style='color: aliceblue;'
+                >Home</a>
+              </li>
+              <li class='nav-item'>
+                <a
+                  class='nav-link'
+                  href='/api/myCollection'
+                  style='color: aliceblue;'
+                >MyCollection</a>
+              </li>
+              <li class='nav-item'>
+                <a
+                  class='nav-link'
+                  href='#'
+                  style='color: aliceblue;'
+                >Logout</a>
+              </li>
+            {{else}}
+              
+              </li>
+              <li class='nav-item'>
+                <a
+                  class='nav-link'
+                  data-bs-toggle='modal'
+                  data-bs-target='#loginModal'
+                  href='#'
+                  style='color: aliceblue;'
+                >Login</a>
+              </li>
+              <li class='nav-item'>
+                <a
+                  class='nav-link'
+                  data-bs-toggle='modal'
+                  data-bs-target='#signupModal'
+                  href='#'
+                  style='color: aliceblue;'
+                >Signup</a>
+              </li>
+            {{/if}}
+
           </ul>
         </div>
       </div>

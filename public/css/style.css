@@ -4,7 +4,8 @@
 }
 
 body {
-  background-color: #2d122e;
+  background-color: #fb126c;
+  background-image: linear-gradient(45deg, #fb126c 0%, #100a07 100%);
 }
 
 .card {
@@ -16,8 +17,8 @@ body {
 }
 
 .glowing-text {
-  text-shadow: 0 0 2px #fff, 0 0 5px #fff, 0 0 3px #fff, 0 0 5px #ff00de,
-    0 0 10px #ff00de, 0 0 25px #ff00de, 0 0 15px #ff00de;
+  text-shadow: 0 0 2px #fff, 0 0 5px #fff, 0 0 3px #fff, 0 0 5px #ff0000,
+    0 0 10px #7234c2, 0 0 25px #aa1434, 0 0 15px #f2f603;
 }
 
 .news-container {
@@ -27,24 +28,32 @@ body {
 .news-card {
   max-width: 640px;
   margin-top: 10%;
-  box-shadow: rgba(246, 4, 157, 0.979) 5px 5px,
-    rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px,
-    rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+  box-shadow: rgb(202, 0, 34) 5px 5px, rgba(243, 3, 83, 0.3) 10px 10px,
+    rgba(238, 4, 180, 0.2) 15px 15px, rgba(207, 3, 243, 0.1) 20px 20px,
+    rgba(242, 4, 250, 0.05) 25px 25px;
 }
 .modal-content {
-  background-color: #9a32de;
-  background-image: linear-gradient(62deg, #9a32de 0%, #cd9e1c 100%);
+  color: aliceblue;
+  background-color: #fb126c;
+  background-image: linear-gradient(225deg, #fb126c 23%, #100a07 76%);
 }
 
-.btn-submit-modal {
+.div-btn-submit {
   font-family: 'Alfa Slab One', cursive;
-  margin-left: 42%;
+  display: flex;
+  justify-content: center;
 }
 
 .userpage_title {
   color: aliceblue;
   padding-top: 5%;
   padding-left: 3%;
+}
+
+.card > img {
+  width: 100%; /* Adjust the desired width */
+  height: auto; /* Maintain the aspect ratio */
+  object-fit: cover; /* Scale and crop the image to fill the container */
 }
 
 @media screen and (max-width: 768px) {
