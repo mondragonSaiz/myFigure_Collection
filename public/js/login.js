@@ -16,7 +16,7 @@ signUpBTN.addEventListener('click', async (event) => {
   });
 
   if (response.ok) {
-    document.location.replace('/api/user');
+    document.location.replace('/api/users');
   } else {
     console.log('There was an error creating a user, better go check it out');
   }

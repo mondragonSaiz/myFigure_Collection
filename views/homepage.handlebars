@@ -29,7 +29,7 @@
           class='modal-body justify-content-center align-items-center'
           style='border-color: #FFFF;'
         >
-          <form id="signUpForm">
+          <form id='signUpForm'>
             <div class='form-group'>
               <input
                 type='username'
@@ -63,12 +63,14 @@
                 style='text-align: left; margin-bottom: 2%;'
               />
             </div>
-            <button
-              type='submit'
-              class='btn btn-primary btn-submit-modal'
-              style='margin: 3%;'
-              id='signUpSubmit'
-            >Submit</button>
+            <div class='div-btn-submit'>
+              <button
+                type='submit'
+                class='btn btn-outline-light'
+                id='signUpSubmit'
+              >Submit</button>
+            </div>
+
           </form>
         </div>
         {{! <div class="modal-footer">
@@ -126,12 +128,15 @@
                 style='font-family:Poppins; text-align: center; margin-bottom: 2%;'
               />
             </div>
-            <button
-              type='submit'
-              class='btn btn-outline-light btn-submit-modal'
-              ;
-              id='loginSubmit'
-            >Submit</button>
+            <div class='div-btn-submit'>
+              <button
+                type='submit'
+                class='btn btn-outline-light'
+                id='loginSubmit'
+              >Submit</button>
+
+            </div>
+
           </form>
         </div>
         {{! <div class="modal-footer">
@@ -215,5 +220,5 @@
     </div>
     <!-- END of News Card -->
   </div>
-  <script src='../js/userAuth.js'></script>
+  <script src='../js/login.js'></script>
 </body>

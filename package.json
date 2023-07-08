@@ -12,7 +12,8 @@
     "sequelize": "^6.32.1"
   },
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "seed": "node seeds/seed.js"
   },
   "name": "myfigure_collection",
   "description": "user-friendly app designed for figure collectors to easily manage and track their collections.",

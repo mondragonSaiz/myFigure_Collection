@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Frieza Fourth Form",
+    "saga": "Dragon Ball Z",
+    "type": "Regular",
+    "image": "/images/collection/frieza-f4.png",
+    "year": 2020
+  },
+  {
+    "name": "Nappa",
+    "saga": "Dragon Ball Z",
+    "type": "Regular",
+    "image": "/images/collection/nappa.png",
+    "year": 2018
+  },
+  {
+    "name": "Super Saiyan Son Goku",
+    "saga": "Dragon Ball Z",
+    "type": "Regular",
+    "image": "/images/collection/goku-s1-3.png",
+    "year": 2023
+  },
+  {
+    "name": "Orange Piccolo",
+    "saga": "Dragon Ball Super",
+    "type": "Tamashi Web Exclusive",
+    "image": "/images/collection/piccolo-orange.png",
+    "year": 2023
+  },
+  {
+    "name": "Super Buu",
+    "saga": "Dragon Ball Z",
+    "type": "Regular",
+    "image": "/images/collection/majinb-f2.png",
+    "year": 2017
+  },
+  {
+    "name": "Piccolo",
+    "saga": "Dragon Ball Z",
+    "type": "Regular",
+    "image": "/images/collection/piccolo.png",
+    "year": 2022
+  },
+  {
+    "name": "Zarbon",
+    "saga": "Dragon Ball Z",
+    "type": "Tamashi Web Exclusive",
+    "image": "/images/collection/zarbon.png",
+    "year": 2020
+  },
+  {
+    "name": "Goku Super Saiyan 4",
+    "saga": "Dragon Ball GT",
+    "type": "Regular",
+    "image": "/images/collection/goku-ss4.png",
+    "year": 2021
+  },
+  {
+    "name": "Vegueta Super Saiyan",
+    "saga": "Dragon Ball Z",
+    "type": "Regular",
+    "image": "/images/collection/vegeta-s1.png",
+    "year": 2016
+  }
+]
